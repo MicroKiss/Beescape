@@ -9,8 +9,10 @@ function IncreasePoints (val = 1)
 		
     objScore.levelScore += val;
 	if ((objScore.levelScore mod 5) == 0) {
+		
+		var reainingTime = time_source_get_time_remaining (objWallGenerator.spawner);
 		time_source_stop (objWallGenerator.spawner);
-		var iD = call_later (time_source_get_time_remaining(objWallGenerator.spawner),time_source_units_seconds, function () {
+		var iD = call_later (reainingTime, time_source_units_seconds, function () {
 		objWallGenerator.spawnWalls ();
 		var newDelay = max (1, time_source_get_period(objWallGenerator.spawner) - 0.2);
 		time_source_reconfigure (objWallGenerator.spawner,

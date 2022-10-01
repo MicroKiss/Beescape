@@ -1,3 +1,3 @@
 event_inherited ();
 
-room_goto (rmGame);
+TransitionStart(rmGame,seqOutTransition);

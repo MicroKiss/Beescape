@@ -1,3 +1,3 @@
 event_inherited ();
 
-room_goto (rmMenu);
+TransitionStart(rmMenu, seqOutTransitionFast);
