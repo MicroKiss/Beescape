@@ -8,6 +8,9 @@ function IncreasePoints (val = 1)
 		throw ("no score object");
 		
     objScore.levelScore += val;
+	objWallGenerator.fallSpeed = objWallGenerator.startingFallSpeed + objScore.levelScore * 10;
+	objPlayer.spd = objPlayer.startingSpd + objScore.levelScore * 5;
+
 	if ((objScore.levelScore mod 5) == 0) {
 		
 		var reainingTime = time_source_get_time_remaining (objWallGenerator.spawner);
@@ -22,6 +25,7 @@ function IncreasePoints (val = 1)
 	});
 	}
 }
+
 
 function SaveHighScore (val) 
 {

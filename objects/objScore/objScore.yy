@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objScore",
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprCoin",
+    "path": "sprites/sprCoin/sprCoin.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

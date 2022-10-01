@@ -1,7 +1,7 @@
 self.spawnWalls = function () 
 {
 	var spawnY = 0;
-	var spawnX = random (room_width - 100);
+	var spawnX = random_range (sprite_get_width (sprPlayer), room_width - sprite_get_width (sprPlayer));
 	var halfWallSize = sprite_get_width (sprWall) / 2;
 	
 	var halfHoleSize = sprite_get_width (sprPlayer) * 2.5;
