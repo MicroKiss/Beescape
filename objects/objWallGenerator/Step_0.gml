@@ -1,4 +1,6 @@
+fallSpeed = startingFallSpeed + objScore.levelScore * 10;
+
 with (objWall)
-	y += other.spd*global.deltaTime;
+	y += other.fallSpeed*global.deltaTime;
 with (objPoint)
-	y += other.spd*global.deltaTime;
+	y += other.fallSpeed*global.deltaTime;

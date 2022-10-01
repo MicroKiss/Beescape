@@ -1,6 +1,6 @@
-
-x = mouse_x;
-//x += dir*spd*global.deltaTime;
+//for testing
+//x = mouse_x;
+x += dir*spd*global.deltaTime;
 
 
 
