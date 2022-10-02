@@ -1,0 +1,1 @@
+levelTotalscore = levelBonusScore + levelScore;

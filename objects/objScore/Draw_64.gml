@@ -4,5 +4,5 @@ draw_sprite(sprCoin, 0, sprite_get_width(sprCoin), y);
 draw_set_font (fntUI);
 draw_set_halign (fa_left);
 draw_set_valign (fa_middle);
-draw_text(sprite_get_width (sprCoin) + 50, y, string (levelScore));
+draw_text(sprite_get_width (sprCoin) + 50, y, string (levelScore + levelBonusScore));
 

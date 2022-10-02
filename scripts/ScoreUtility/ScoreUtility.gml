@@ -13,15 +13,15 @@ function IncreasePoints (val = 1)
 
 	if ((objScore.levelScore mod 5) == 0) {
 		
-		var reainingTime = time_source_get_time_remaining (objWallGenerator.spawner);
-		time_source_stop (objWallGenerator.spawner);
+		var reainingTime = time_source_get_time_remaining (objWallGenerator.wallSpawner);
+		time_source_stop (objWallGenerator.wallSpawner);
 		var iD = call_later (reainingTime, time_source_units_seconds, function () {
-		objWallGenerator.spawnWalls ();
-		var newDelay = max (1, time_source_get_period(objWallGenerator.spawner) - 0.2);
-		time_source_reconfigure (objWallGenerator.spawner,
+		SpawnWalls ();
+		var newDelay = max (1, time_source_get_period(objWallGenerator.wallSpawner) - 0.2);
+		time_source_reconfigure (objWallGenerator.wallSpawner,
 		newDelay,
-		time_source_units_seconds, objWallGenerator.spawnWalls,[],-1);
-		time_source_start (objWallGenerator.spawner);
+		time_source_units_seconds, SpawnWalls, [], -1);
+		time_source_start (objWallGenerator.wallSpawner);
 	});
 	}
 }

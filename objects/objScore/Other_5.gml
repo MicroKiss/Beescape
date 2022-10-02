@@ -1,1 +1,1 @@
-SaveHighScore (levelScore)
+SaveHighScore (levelTotalscore)
