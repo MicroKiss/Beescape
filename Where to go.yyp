@@ -19,6 +19,7 @@
     {"id":{"name":"fntDebug","path":"fonts/fntDebug/fntDebug.yy",},"order":1,},
     {"id":{"name":"objButtonCheckBox","path":"objects/objButtonCheckBox/objButtonCheckBox.yy",},"order":2,},
     {"id":{"name":"sprButtonCheckBox","path":"sprites/sprButtonCheckBox/sprButtonCheckBox.yy",},"order":0,},
+    {"id":{"name":"objButtonWarp","path":"objects/objButtonWarp/objButtonWarp.yy",},"order":4,},
     {"id":{"name":"objScore","path":"objects/objScore/objScore.yy",},"order":1,},
     {"id":{"name":"sprWall","path":"sprites/sprWall/sprWall.yy",},"order":5,},
     {"id":{"name":"seqOutTransitionFast","path":"sequences/seqOutTransitionFast/seqOutTransitionFast.yy",},"order":2,},

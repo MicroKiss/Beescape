@@ -6,3 +6,4 @@ randomise();
 global.saveLocation = working_directory  + "saveData.dat";
 global.highScore = 0;
 global.debug = false;
+global.warpMovement = true;

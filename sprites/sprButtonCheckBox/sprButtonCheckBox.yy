@@ -29,6 +29,8 @@
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4d2703ab-52d0-4f38-b4d7-53d58629e49d",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ee5c38bf-fd51-4ff1-9d34-4bd55aaf356c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"75d736b4-5907-41aa-8db8-317e6578bc04",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aa86d665-8dd6-41eb-8cee-d2d6fe89c9aa",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -40,13 +42,15 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 2.0,
+    "length": 4.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"35271a6f-7b19-450c-a708-c28d973cd730","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d2703ab-52d0-4f38-b4d7-53d58629e49d","path":"sprites/sprButtonCheckBox/sprButtonCheckBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"78776418-5a09-49fb-8a57-ed89cc26bc85","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ee5c38bf-fd51-4ff1-9d34-4bd55aaf356c","path":"sprites/sprButtonCheckBox/sprButtonCheckBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7a4c9474-b176-4a1e-9993-f230473dba37","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"75d736b4-5907-41aa-8db8-317e6578bc04","path":"sprites/sprButtonCheckBox/sprButtonCheckBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e794da87-1f88-4e15-9416-e59b26aa135a","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aa86d665-8dd6-41eb-8cee-d2d6fe89c9aa","path":"sprites/sprButtonCheckBox/sprButtonCheckBox.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
