@@ -16,7 +16,6 @@ if (comboCounter >= 3) {
 	var rectangleWidth = 60;
 	var rectangleHeight = 250;
 
-	draw_set_color (c_green);
 	draw_roundrect(rectangleX,rectangleY + rectangleHeight * (100- comboCounter mod 100) /100,rectangleX + rectangleWidth,rectangleY + rectangleHeight, false);
 	draw_line_width(rectangleX,rectangleY,rectangleX,rectangleY + rectangleHeight, 5);
 	draw_line_width(rectangleX + rectangleWidth,rectangleY,rectangleX + rectangleWidth,rectangleY + rectangleHeight, 5);

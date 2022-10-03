@@ -13,6 +13,7 @@
     {"id":{"name":"SpawnGameThingies","path":"scripts/SpawnGameThingies/SpawnGameThingies.yy",},"order":2,},
     {"id":{"name":"sprButtonExit","path":"sprites/sprButtonExit/sprButtonExit.yy",},"order":2,},
     {"id":{"name":"sprwhitePixel","path":"sprites/sprwhitePixel/sprwhitePixel.yy",},"order":0,},
+    {"id":{"name":"sprTitle","path":"sprites/sprTitle/sprTitle.yy",},"order":14,},
     {"id":{"name":"sprPlaceHolder","path":"sprites/sprPlaceHolder/sprPlaceHolder.yy",},"order":1,},
     {"id":{"name":"objPoint","path":"objects/objPoint/objPoint.yy",},"order":1,},
     {"id":{"name":"rmLoading","path":"rooms/rmLoading/rmLoading.yy",},"order":1,},
