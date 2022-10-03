@@ -1,4 +1,10 @@
-IncreasePoints ();
+IncreasePoints (pointValue);
+objWallGenerator.wallsPassed += 1;
+IncreaseFallSpeed ();
+IncreasePlayerSpeed ()
+
+if (objWallGenerator.wallsPassed mod 5 == 0)
+	ReconfigureWallSpawner ();
 
 for (var i = 0; i < 3 ;++i) {
 	var randX = random(sprite_width) - sprite_width / 2;

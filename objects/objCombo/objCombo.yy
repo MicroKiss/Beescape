@@ -37,7 +37,7 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "game",
-    "path": "folders/Objects/levelDependent/game.yy",
+    "name": "Misc",
+    "path": "folders/Objects/levelDependent/game/Misc.yy",
   },
 }

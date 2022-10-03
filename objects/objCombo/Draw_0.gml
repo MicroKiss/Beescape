@@ -8,8 +8,9 @@ var xDiff = choose (-10, -5, 0, 5, 10);
 var size = choose (-1, 0, 1);
 
 var color = c_white;
-
-if (comboCounter >= 200) 
+if (comboCounter >= 500) 
+	color = c_black;
+else if (comboCounter >= 200) 
 	color = c_red;
 else if (comboCounter >= 150) 
 	color = c_purple;
