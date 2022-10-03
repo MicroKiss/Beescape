@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "objScore",
   "spriteId": {
-    "name": "sprCoin",
-    "path": "sprites/sprCoin/sprCoin.yy",
+    "name": "sprScore",
+    "path": "sprites/sprScore/sprScore.yy",
   },
   "solid": false,
   "visible": true,

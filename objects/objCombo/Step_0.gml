@@ -1,3 +1,15 @@
-if (current_time - lastClick > 1000)
+if (current_time - lastClick > 1000) {
 	comboCounter = 0;
+	comboColor = c_white;
+}
 
+if (comboCounter >= 500) 
+	comboColor = c_black;
+else if (comboCounter >= 200) 
+	comboColor = c_red;
+else if (comboCounter >= 150) 
+	comboColor = c_purple;
+else if (comboCounter >= 100) 
+	comboColor = c_blue;
+else if (comboCounter >= 50) 
+	comboColor = c_yellow;

@@ -8,12 +8,12 @@ if (instance_exists(objWallGenerator)) {
 	array_push (debugInfo, ["wallSpawnRem",time_source_get_time_remaining(objWallGenerator.wallSpawner)])
 	array_push (debugInfo, ["wallSpawnPer",time_source_get_period(objWallGenerator.wallSpawner)])
 	array_push (debugInfo, ["fallSpeed",objWallGenerator.fallSpeed])
+	array_push (debugInfo, ["wallsPassed",objWallGenerator.wallsPassed])
 }
 if (instance_exists(objPlayer)) {
 	array_push (debugInfo, ["playerSpeed",objPlayer.spd])
-	
 }
-array_push (debugInfo, ["wallsPassed",objWallGenerator.wallsPassed])
+
 var lineCount = array_length(debugInfo);
 var startingY = room_height / 2 - (lineCount / 2)*lineHeight;
 for (var i=0; i < lineCount;i++) {
