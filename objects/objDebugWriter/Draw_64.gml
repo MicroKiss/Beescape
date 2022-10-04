@@ -2,6 +2,7 @@ display_set_gui_size(1080, 1920);
 
 SaveFontState ();
 draw_set_font (fntDebug);
+draw_set_color (c_black);
 
 var debugInfo = [];
 if (instance_exists(objWallGenerator)) {

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "objButtonStart",
   "spriteId": {
-    "name": "sprButtonStart",
-    "path": "sprites/sprButtonStart/sprButtonStart.yy",
+    "name": "sprButtonBasic",
+    "path": "sprites/sprButtonBasic/sprButtonBasic.yy",
   },
   "solid": false,
   "visible": true,

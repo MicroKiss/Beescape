@@ -7,3 +7,6 @@ bonusZoneSpawner = time_source_create (time_source_game, startingBonusZoneInterv
 
 time_source_start (wallSpawner);
 time_source_start (bonusZoneSpawner);
+
+//Reconfigure scripts uses this
+handle = noone;

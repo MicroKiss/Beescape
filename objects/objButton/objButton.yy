@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objButton",
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprButtonBasic",
+    "path": "sprites/sprButtonBasic/sprButtonBasic.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

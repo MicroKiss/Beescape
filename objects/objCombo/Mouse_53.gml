@@ -4,6 +4,7 @@ comboAngle = -20 + (comboCounter mod 100) / 100 * 40;
 	
 if (comboCounter mod 100 == 0) {
 	IncreasePoints (comboCounter / 10);
+	audio_play_sound(sndCombo, 10, false);
 
 	for (var i = 0; i < 5; ++i) {
 		var xDiff = random(256) - 128;

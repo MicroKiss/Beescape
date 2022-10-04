@@ -87,6 +87,6 @@
   "eventStubScript": null,
   "parent": {
     "name": "Sequences",
-    "path": "folders/Sequences.yy",
+    "path": "folders/Sprites/Buttons/Sequences.yy",
   },
 }

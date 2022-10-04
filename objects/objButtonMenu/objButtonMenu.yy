@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "objButtonMenu",
   "spriteId": {
-    "name": "sprButtonExit",
-    "path": "sprites/sprButtonExit/sprButtonExit.yy",
+    "name": "sprButtonBasic",
+    "path": "sprites/sprButtonBasic/sprButtonBasic.yy",
   },
   "solid": false,
   "visible": true,
