@@ -1,6 +1,6 @@
 IncreasePoints (pointValue);
 objWallGenerator.wallsPassed += 1;
-audio_play_sound(sndWallScore, 10, false);
+PlayAudio (sndWallScore);
 IncreaseFallSpeed ();
 IncreasePlayerSpeed ()
 

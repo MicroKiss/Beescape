@@ -1,6 +1,6 @@
 IncreasePoints (gainedPoints);
 if (gainedPoints > 0 )
-	audio_play_sound(sndBonusZone, 10, false);
+	PlayAudio (sndBonusZone);
 call_cancel(handle1);
 if (handle2 != noone)
 	call_cancel(handle2);

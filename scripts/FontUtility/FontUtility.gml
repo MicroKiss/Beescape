@@ -1,8 +1,8 @@
-global.font = noone;
-global.alpha = noone;
-global.color = noone;
-global.valign = noone;
-global.halign = noone;
+global.font = fntUI;
+global.alpha = 1;
+global.color = c_white;
+global.valign = fa_middle;
+global.halign = fa_center;
 
 function SaveFontState(){
 	global.font = draw_get_font ();

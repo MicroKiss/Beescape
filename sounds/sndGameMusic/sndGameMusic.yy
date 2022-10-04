@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndGameMusic.mp3",
-  "duration": 128.0261,
+  "duration": 106.4751,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

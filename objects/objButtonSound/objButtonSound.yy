@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objButtonDebug",
+  "name": "objButtonSound",
   "spriteId": {
     "name": "sprButtonCheckBox",
     "path": "sprites/sprButtonCheckBox/sprButtonCheckBox.yy",

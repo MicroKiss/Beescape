@@ -2,26 +2,26 @@ global.roomTarget = -1;
 global.midTransition = false;
 
 //Called whenever you want to go from one room to another, using any combination of in/out sequences
-function TransitionStart(_roomTarget, _typeOut)
+function TransitionStart(roomTarget, typeOut)
 {
 	if (!global.midTransition)
 	{
-		//audio_play_sound (transitionSound, 1, 0);
+		//PlayAudio (transitionSound);
 		global.midTransition = true;
-		global.roomTarget = _roomTarget;
-		TransitionPlaceSequence(_typeOut);
+		global.roomTarget = roomTarget;
+		TransitionPlaceSequence(typeOut);
 		return true;
 	}
 	else return false
 }
 
 //Places the sequences in the room
-function TransitionPlaceSequence(_type)
+function TransitionPlaceSequence(type)
 {
 	if (layer_exists("transition")) layer_destroy("transition")
-	var _lay = layer_create(-1,"transition")
+	var lay = layer_create(-1,"transition")
 
-	return layer_sequence_create(_lay,room_width /2 ,room_height /2 ,_type);	
+	return layer_sequence_create(lay,room_width /2 ,room_height /2 ,type);	
 
 }
 

@@ -6,8 +6,8 @@ draw_set_color (c_black);
 
 var debugInfo = [];
 if (instance_exists(objWallGenerator)) {
-	array_push (debugInfo, ["wallSpawnRem",time_source_get_time_remaining(objWallGenerator.wallSpawner)])
-	array_push (debugInfo, ["wallSpawnPer",time_source_get_period(objWallGenerator.wallSpawner)])
+	array_push (debugInfo, ["spawnTime",time_source_get_time_remaining(objWallGenerator.wallSpawner)])
+	array_push (debugInfo, ["spawnPeriod",time_source_get_period(objWallGenerator.wallSpawner)])
 	array_push (debugInfo, ["fallSpeed",objWallGenerator.fallSpeed])
 	array_push (debugInfo, ["wallsPassed",objWallGenerator.wallsPassed])
 }
