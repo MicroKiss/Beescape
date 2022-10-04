@@ -3,6 +3,10 @@ global.saveVersion = 1;
 
 
 function InitGlobals() {
+	global.highScore = 0;
+	global.warpMovement = true;
+	global.sounds = true;
+	
 	var success = true;
 	if file_exists(global.saveLocation) {
 		var saveFile = file_text_open_read (global.saveLocation);
@@ -19,12 +23,6 @@ function InitGlobals() {
 
 		file_text_close(saveFile);
 	} 
-	if (!success){
-		global.highScore = 0;
-		global.warpMovement = true;
-		global.sounds = true;
-		SaveGlobals ();
-	}
 }
 
 

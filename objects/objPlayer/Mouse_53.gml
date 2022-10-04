@@ -1,2 +1,2 @@
 dir *= -1;
-PlayAudio (sndMovement);
+PlayAudio (sndMovement, false);
