@@ -1,7 +1,7 @@
 {
   "resourceType": "GMProject",
   "resourceVersion": "1.6",
-  "name": "Where to go",
+  "name": "beescape",
   "resources": [
     {"id":{"name":"objBonusZone","path":"objects/objBonusZone/objBonusZone.yy",},"order":0,},
     {"id":{"name":"FontUtility","path":"scripts/FontUtility/FontUtility.yy",},"order":3,},
