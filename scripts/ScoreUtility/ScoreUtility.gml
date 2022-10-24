@@ -4,7 +4,10 @@
 
 function IncreasePoints (val)
 {
-	objScore.levelScore += val;
+	if (instance_exists (objScore)) 
+		objScore.levelScore += val;
+	else
+		show_debug_message("nowhere to store score");
 }
 
 
