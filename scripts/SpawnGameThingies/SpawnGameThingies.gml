@@ -56,7 +56,7 @@ function ReconfigureWallSpawner ()
 
 	var reainingTime = time_source_get_time_remaining (objWallGenerator.wallSpawner);
 	time_source_stop (objWallGenerator.wallSpawner);
-	objWallGenerator.handle = call_later (reainingTime, time_source_units_seconds, function () {
+	objWallGenerator.timerDelay = time_source_create(time_source_game, reainingTime, time_source_units_seconds, function () {
 	SpawnWalls ();
 	var newDelay = max (1, time_source_get_period(objWallGenerator.wallSpawner) - 0.2);
 	time_source_reconfigure (objWallGenerator.wallSpawner,
@@ -64,5 +64,6 @@ function ReconfigureWallSpawner ()
 	time_source_units_seconds, SpawnWalls, [], -1);
 	time_source_start (objWallGenerator.wallSpawner);
 	});
+	time_source_start (objWallGenerator.timerDelay);
 	
 }

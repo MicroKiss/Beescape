@@ -1,5 +1,9 @@
-//for testing
-//x = mouse_x;
+
+if (global.gamePaused)
+	return;
+
+
+
 x += dir*spd*global.deltaTime;
 
 

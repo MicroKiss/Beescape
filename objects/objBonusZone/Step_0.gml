@@ -1,12 +1,10 @@
 if (place_meeting(x,y,objPlayer)) {
 	image_alpha = 0.9;
 	
-	if (handle2 == noone) {
-		handle2 = call_later(0.1, time_source_units_seconds,function () 
-		{
-			if (image_xscale > 0.1)
-				image_xscale -= 0.02;
-		}, true);
+	if (deathTimer2 == noone) {
+		deathTimer2 = time_source_create(time_source_game, 0.1, time_source_units_seconds, function ()
+			{if (image_xscale > 0.1) image_xscale -= 0.02;},[],-1);
+		time_source_start(deathTimer2); 
 	}
 	
 	if (current_time - lastTime	< periodTime)

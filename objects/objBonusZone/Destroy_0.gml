@@ -1,6 +1,9 @@
 IncreasePoints (gainedPoints);
 if (gainedPoints > 0 )
 	PlayAudio (sndBonusZone, false);
-call_cancel(handle1);
-if (handle2 != noone)
-	call_cancel(handle2);
+
+time_source_destroy (deathTimer1);
+
+
+if (deathTimer2 != noone)
+	time_source_destroy(deathTimer2);

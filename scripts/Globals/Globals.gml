@@ -1,11 +1,17 @@
 global.saveLocation = working_directory  + "saveData.dat";
 global.saveVersion = 1;
 
+global.deltaTime = 0;
+global.gamePaused = false;
+global.lastScore = -1;
+
 
 function InitGlobals() {
 	global.highScore = 0;
 	global.warpMovement = true;
 	global.sounds = true;
+	global.deviceWidth = display_get_width();
+	global.deviceHeight = display_get_height();
 	
 	var success = true;
 	if file_exists(global.saveLocation) {

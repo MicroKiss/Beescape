@@ -1,4 +1,3 @@
-time_source_stop (wallSpawner);
-time_source_stop (bonusZoneSpawner);
-if (handle != noone )
-	call_cancel (handle);
+time_source_destroy (wallSpawner);
+time_source_destroy (bonusZoneSpawner);
+time_source_destroy (timerDelay)

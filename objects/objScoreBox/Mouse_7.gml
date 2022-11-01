@@ -1,0 +1,2 @@
+ContinueGame ();
+instance_destroy ();
