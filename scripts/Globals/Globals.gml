@@ -1,5 +1,5 @@
 global.saveLocation = working_directory  + "saveData.dat";
-global.saveVersion = 1;
+global.saveVersion = 1.01;
 
 global.deltaTime = 0;
 global.gamePaused = false;
@@ -10,8 +10,7 @@ function InitGlobals() {
 	global.highScore = 0;
 	global.warpMovement = true;
 	global.sounds = true;
-	global.deviceWidth = display_get_width();
-	global.deviceHeight = display_get_height();
+	global.xmasTheme = true;
 	
 	var success = true;
 	if file_exists(global.saveLocation) {
@@ -25,6 +24,7 @@ function InitGlobals() {
 			global.highScore = file_text_read_real(saveFile);
 			global.warpMovement = file_text_read_real(saveFile);
 			global.sounds = file_text_read_real(saveFile);
+			global.xmasTheme = file_text_read_real(saveFile);
 		}
 
 		file_text_close(saveFile);
@@ -39,6 +39,7 @@ function SaveGlobals ()
 	file_text_write_real (saveFile, global.highScore);
 	file_text_write_real (saveFile, global.warpMovement);
 	file_text_write_real (saveFile, global.sounds);
+	file_text_write_real (saveFile, global.xmasTheme);
 		
 	file_text_close (saveFile);
 }

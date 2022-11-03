@@ -4,7 +4,7 @@ if (comboCounter >= 10 && (current_time - lastParticle >= 60)) {
 	var xDiff = choose (-10, -5, 0, 5, 10);
 	var size = choose (-1, 0, 1);
 
-	effect_create_below(ef_ring, random(room_width), random(room_height), size, comboColor);
+	effect_create_below(particleEffect, random(room_width), random(room_height), size, comboColor);
 }
 
 if (comboCounter >= 3) {

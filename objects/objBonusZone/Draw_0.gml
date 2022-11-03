@@ -5,7 +5,7 @@ if (gainedPoints > 0 ) {
 	SaveFontState ();
 
 	draw_set_font (fntUI);
-	draw_set_color (c_yellow);
+	draw_set_color (textColor);
 	draw_set_halign (fa_center);
 	draw_set_valign (fa_middle);
 	draw_set_alpha (0.7);
